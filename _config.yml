@@ -1,6 +1,6 @@
 # SITE CONFIGURATION
-baseurl: "/helena-wu" # the subpath of your site, e.g. /blog/
-url: "http://www.domain.com" # the base hostname & protocol for your site
+baseurl: "/jekyllportfolio" # the subpath of your site, e.g. /blog/
+url: "http://helenawu.github.io" # the base hostname & protocol for your site
 
 # THEME-SPECIFIC CONFIGURATION
 theme:
