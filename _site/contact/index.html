@@ -35,6 +35,16 @@
 
 	<!-- Google Analytics -->
 	
+	<script>
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	ga('create', 'UA-73414886-1', 'auto');
+	ga('send', 'pageview');
+	</script>
+	
 </head>
 
   <body>
@@ -88,9 +98,9 @@
   <section class="post-content"><p>If you’re interested in what I do, shoot me an email :D   <br />
 I probably won’t bite.</p>
 
-<form action="https://getsimpleform.com/messages?form_api_token=" method="post">
+<form action="https://getsimpleform.com/messages?form_api_token=3b172de943bf8390016cedd7eceff914" method="post">
   <!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
-  <input type="hidden" name="redirect_to" value="full-url/thank-you/" />
+  <input type="hidden" name="redirect_to" value="jekyllportfolio.github.io/thank-you/" />
   <input type="text" name="name" placeholder="Your Full Name" />
   <input type="email" name="email" placeholder="Your E-mail Address" />
   <textarea name="message" placeholder="Write your message ..."></textarea>
@@ -102,11 +112,6 @@ I probably won’t bite.</p>
     </div>
     <script src="/helena-wu/js/main.js"></script>
 
-
-<footer class="site-footer">
-  <p class="text">Powered by <a href="http://jekyllrb.com">Jekyll</a> and made with love.
-</p>
-</footer>
 
 
   </body>
