@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html class="no-js">
+  <head>
+	<meta charset="utf-8">
+	<title>Blocipedia | Helena Wu</title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-Frame-Options" content="sameorigin">
+
+	<!-- CSS -->
+	<link rel="stylesheet" href="/helena-wu/css/main.css">
+
+	<!--Favicon-->
+	<link rel="shortcut icon" href="/helena-wu/favicon.ico" type="image/x-icon">
+
+	<!-- Canonical -->
+	<link rel="canonical" href="http://www.domain.com/helena-wu/portfolio/blocipedia/">
+
+	<!-- RSS -->
+	<link rel="alternate" type="application/atom+xml" title="Helena Wu" href="http://www.domain.com/helena-wu/feed.xml" />
+
+	<!-- Font Awesome -->
+	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+
+	<!-- Google Fonts -->
+	
+	<link href="//fonts.googleapis.com/css?family=Lato:300,400,700,300italic,700italic|Abril+Fatface" rel="stylesheet" type="text/css">
+	
+
+	<!-- KaTeX -->
+	
+	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/KaTeX/0.3.0/katex.min.css">
+	<script src="//cdnjs.cloudflare.com/ajax/libs/KaTeX/0.3.0/katex.min.js"></script>
+	
+
+	<!-- Google Analytics -->
+	
+</head>
+
+  <body>
+    <header class="site-header">
+  <nav class="site-nav">
+    <ul>
+      
+      
+      
+      
+      <li>
+        <a class="page-link" href="/helena-wu/about/">
+          About
+        </a>
+      </li>
+      
+      
+      
+      <li>
+        <a class="page-link" href="/helena-wu/contact/">
+          Contact
+        </a>
+      </li>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    </ul>
+  </nav>
+
+  
+  <div class="call-out" 
+  style="background-image: url('/helena-wu/')">
+    <h1 class="site-title">
+      <a href="/helena-wu/">Helena Wu</a>
+    </h1>
+    <div class="divider"></div>
+    <h1 class="title">Blocipedia</h1>
+  </div>
+  
+</header>
+
+    <div class="content">
+      <article >
+  <section class="post-content"><p class="center"><img src="/helena-wu/img/blocipedia.png" alt="" /></p>
+
+<h2 id="problem">Problem</h2>
+
+<p>Have you ever looked at Wikipedia and think I can make a better one AND charge money for it? Look no further than Blocipedia, where when you add some cool functions like collaborator and make some wiki articles private, you can charge people for it! Let’s get to the making of the money forthwith.</p>
+
+<h2 id="solution">Solution</h2>
+<p>First we want to build an authentication system, which we built with the handy-dandy Devise authentication engine that generates all the necessary components we need to sign in and out of the application.   <br />
+To make money, we need to make things exclusive. We first create a pricing chart to get users to pay for premium features. (think money)<br />
+From there on, add a role column to your users, all users can be ‘standard’ (default - those who live in poverty), or ‘premium’ (think dollar sign), and of course, to ensure your reign of terror rests firmly in your hands, create an admin role.<br />
+All premium users are free to view privately created wikis, on top of that they can also collaborate/collude with their equally wealthy friends. To overcome the challenge of adding the collaborator feature, we organized the relation to be has_many_through to reduce complexity.</p>
+
+<h4 id="if-youre-wondering-if-we-profitted-or-not-just-take-a-good-look-at-our-5-million-mansion-in-beverly-hills">If you’re wondering if we profitted or not, just take a good look at our $5 million mansion in Beverly Hills.</h4>
+</section>
+</article>
+
+<!-- Disqus -->
+
+
+    </div>
+    <script src="/helena-wu/js/main.js"></script>
+
+
+<footer class="site-footer">
+  <p class="text">Powered by <a href="http://jekyllrb.com">Jekyll</a> and made with love.
+</p>
+</footer>
+
+
+  </body>
+</html>
